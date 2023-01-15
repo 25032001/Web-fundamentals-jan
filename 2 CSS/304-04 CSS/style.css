@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    background-color: rgb(2, 2, 42);
+    width: 60%;
+    font-family: "Mulish", sans-serif;
+  }
+  .list-items ul {
+    display: flex;
+    list-style-type: none;
+  }
+  .list-items li {
+    cursor: pointer;
+    padding: 10px 22px;
+    color: rgb(143, 143, 154);
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .icons {
+    color: rgba(255, 255, 255, 0.786);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .icons .material-symbols-outlined {
+    padding: 8px;
+  }
